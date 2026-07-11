@@ -25,7 +25,7 @@
 ### 🔹 Banner (Hero) Section
 
 - A full-width dark background image with overlay
-- Centered bold multi-line heading ("Code. *Connect*. Create") — style one word (e.g. "Connect") in italics for emphasis
+- Centered bold heading ("Code. *Connect*. Create") — style one word (e.g. "Connect") in italics for emphasis
 - Centered supporting paragraph text below the heading
 - One "Register Now" button, centered, below the text
 
@@ -64,6 +64,8 @@
 - Social media links with icons on the right
 - A horizontal divider
 - Copyright message below the divider
+
+(Also you can follow figma design only).
 
 ---
 
