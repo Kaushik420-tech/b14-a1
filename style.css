@@ -62,6 +62,131 @@ body{
     grid-template-columns: 1fr;
   }
 }
+.pricing{
+    padding: 100px 0;
+    background: fixed;
+}
+
+.section-tile{
+    text-align:center;
+    color:#838a97;
+    font-size:50px;
+    font-weight: 800px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.section-subtitle{
+    text-align:center;
+    font-size:20px;
+    margin-top: 18px;
+    margin-bottom:50px;
+}
+.pricing-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+}
+
+.price-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 19px wheat;
+    border-radius: 20px;
+    padding: 40px;
+    transition: .4s;
+}
+.price-card:hover{
+    box-shadow: 0 16px 35px color(rgb(146, 121, 121));
+}
+.featured{
+    transform: scale3d(2.00);
+    color:#555;
+    box-shadow: 0 20px 40px rgb(229, 136, 102);
+}
+.featured:hover{
+    transform:scale(1.03) translateY(-8px);
+}
+
+.plan-name{
+    letter-spacing: 2px;
+    font-size:15px;
+    font-weight: 700;
+    margin: 0 20px 40px;
+}
+.featured .plan-name{
+    color:#7aa7ff;
+}
+.price-card h3{
+    font-size:48px;
+    font-weight:800;
+    margin-bottom:6px;
+}
+.price-text{
+    font-size:15px;
+    color:#6b7280;
+    margin-bottom:28px;
+
+}
+
+.featured .price-text{
+    color:#b2c4db;
+}
+.price-card ul{
+    /* box-shadow: 0 10px 40px; */
+    list-style:disc;
+    padding-left:20px;
+    margin-bottom:35px;
+    flex-grow:1;
+    border-top:1px solid #e5e7eb;
+    padding-top:24px;
+
+}
+.price-card{
+    margin-bottom:16px;
+    color:#4b5563;
+    font-size:15px;
+    line-height:2.6;
+}
+
+.outline-btn{
+
+    width:100%;
+    padding:14px;
+    background:rgb(220, 146, 146);
+    color:#2f5eff;
+    border:2px solid #5f7ddf;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+
+}
+.outline-btn:hover{
+    background:#2f5eff;
+    color:white;
+}
+.outline-dark{
+
+    width:100%;
+    padding:14px;
+    background:white;
+    border:2px solid #3b5578;
+    color:#111827;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+}
+.outline-dark:hover{
+    background:#111827;
+}
+
+
+
+
+
+
+
 
 .navbar{
     width: 100%;
