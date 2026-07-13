@@ -9,22 +9,21 @@ body{
 
 }
 /* FAQ SECTION */
+
+
 .faq-section{
-    padding:100px;
-    background:#eef1f4;
+    padding: 5 rem 1.5rem;
+   background-color: var(--color-background);
     /* box-sizing: border-box; */
-    box-shadow: 0px 5px 19px wheat;
-     display: flex;
-    flex-direction: column;
+    margin-bottom: 60px;
 
 }
-.faq-section .container{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.faq-section .faq-title{
+    text-align:center;
+    margin-bottom: 0.75rem;
+    font: size 1.875em;
+    font-weight: 700;
+    color:var(--color-background);
 }
 .faq-tile{
    
@@ -39,6 +38,11 @@ body{
     text-transform: uppercase;
     letter-spacing: normal;
     
+}
+.faq-section .faq-subtitle{
+    text-align: center;
+    margin-bottom: 3rem;
+    color:var(--color-background);
 }
 .faq-subtitle{
     text-align:center;
@@ -96,6 +100,8 @@ body{
     box-shadow:0 10px 25px rgba(4, 21, 58, 0.15);
     
 }
+/* Speakers Section */
+
 
 .speakers{
     padding: 80px 6%;
@@ -150,10 +156,6 @@ body{
     grid-template-columns: 1fr;
   }
 }
-.pricing{
-    padding: 100px 0;
-    background: fixed;
-}
 
 .section-tile{
     text-align:center;
@@ -169,10 +171,16 @@ body{
     margin-top: 18px;
     margin-bottom:50px;
 }
+
+/* Pricing Section */
 .pricing-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:28px;
+}
+.pricing{
+    padding: 100px 0;
+    background: fixed;
 }
 
 .price-card{
@@ -268,14 +276,7 @@ body{
 .outline-dark:hover{
     background:#111827;
 }
-
-
-
-
-
-
-
-
+/* Navigation Section */
 .navbar{
     width: 100%;
     max-width: 1200px;
@@ -435,4 +436,41 @@ nav-links{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+/* Footer */
+
+.site-footer {
+  background: #0b1220;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 24px;
+}
+.footer-inner {
+  max-width: 1152px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+@media (min-width: 768px) {
+  .footer-inner { flex-direction: row; }
+}
+.footer-copy {
+  font-size: 14px;
+  color: #94a3b8;
+  margin: 0;
+}
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+.footer-links a {
+  font-size: 14px;
+  color: #94a3b8;
+  text-decoration: none;
+}
+.footer-links a:hover { 
+    color: #fff; 
 }
